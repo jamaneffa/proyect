@@ -1,12 +1,16 @@
 <header class="main-header" >
-    <a class="main-logo" href="https://progradudi.netlify.app" >
-      <strong>Progra_dudi</strong>
-    </a>
+    <a class="main-logo" href="/" ><img src="#" alt="Logo "></a>
     <nav id="nav" class="main-nav" >
       <div class="nav-links" >
-        <a class="link-item" href="/" >HOME</a>
-        <a class="link-item" href="/products/detail" >DETAIL</a>
-        <a class="link-item" href="/users/login" >LOGIN</a>
+        <a class="link-item" href="/users/login"><i class="fa-solid fa-user"></i> Login</a>
+        <a class="link-item" href="/products/cart"><i class="fa-solid fa-cart-shopping"></i> Carrito</a>
+        <a class="link-item" href="/products/listProducts"><i class="fa-solid fa-cart-shopping"></i> Productos</a>
+        <div class="search-container">
+          <input type="text" placeholder="Buscar" required />
+          <div class="btn">
+            <i class="fas fa-search icon"></i>
+          </div>
+        </div>
       </div>
     </nav>
     <button id="button-menu" class="button-menu" >
@@ -14,4 +18,5 @@
       <span></span>
       <span></span>
     </button>
+    <script src="/scripts/barsMenu.js"></script>
 </header>

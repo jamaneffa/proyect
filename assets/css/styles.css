@@ -1,0 +1,20 @@
+@import url('./main/home.css');
+@import url('./main/notFound.css');
+
+@import url('./partials/header.css');
+@import url('./partials/footer.css');
+
+@import url('./users/login.css');
+@import url('./users/contact.css');
+
+@import url('./products/cart.css');
+@import url('./products/listProducts.css');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    text-decoration: none;    
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}

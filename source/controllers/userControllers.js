@@ -7,5 +7,13 @@ module.exports = userControllers = {
         catch (error) { 
             console.log(error.message); 
         }
+    },
+    contact: async (req, res) => {
+        try {
+            return res.render('users/contact');
+        } 
+        catch (error) { 
+            console.log(error.message); 
+        }
     }
 }
