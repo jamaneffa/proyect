@@ -3,7 +3,17 @@
     <%- include ('../partials/head.ejs') %>
     <body>
         <%- include ('../partials/header.ejs') %>
-        <h1>CONTACT</h1>
+        <form class="contact-form">
+            <h2>Contactanos</h2>
+            <p type="Nombre:"><input placeholder="Escribi tu nombre"></input></p>
+            <p type="Correo Electronico:"><input placeholder="Escribi tu correo electronico"></input></p>
+            <p type="Mensaje:"><input placeholder="Escribi tu mensaje"></input></p>
+            <button>Enviar Mensaje</button>
+            <div>
+              <span class="fa fa-phone"></span>001 1023 567
+              <span class="fa-solid fa-envelope"></span> contact@company.com
+            </div>
+        </form>
         <%- include ('../partials/footer.ejs') %>
     </body>
 </html>
